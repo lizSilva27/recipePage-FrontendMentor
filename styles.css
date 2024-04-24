@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Young+Serif:regular);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark_Raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Rose_White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light_Grey: hsl(30, 18%, 87%);
+  --Wenge_Brown: hsl(30, 10%, 34%);
+  --Dark_Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  font-family: "Outfit";
+  font-size: 16px;
+}
+
+.contendorImage {
+  width: 100%;
+}
+
+.containerReceta {
+  width: 100%;
+  padding: 40px 35px;
+}
+
+.containerReceta h1 {
+  font-family: "Young Serif";
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.containerReceta .txt1 {
+  margin-top: 20px;
+  font-size: 0.97em;
+  line-height: 25px;
+}
+
+.containerPink {
+  background-color: var(--Rose_White);
+  padding: 28px;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.containerPink p {
+  color: var(--Dark_Raspberry);
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.containerPink ul {
+  padding: 10px 20px;
+  line-height: 30px;
+}
+
+.txtBold {
+  font-weight: bold;
+}
+
+#lineHorizontal {
+  border: 1px solid #eaeaea;
+  margin-top: 30px;
+}
+
+.txtSubtitles {
+  font-family: "Young Serif";
+  font-size: 1.7em;
+  color: var(--Dark_Raspberry);
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.listInstructions-Ingredients {
+  margin-left: 30px;
+  line-height: 30px;
+}
+
+.containerTable {
+  margin-top: 30px;
+}
+
+.containerTable .row {
+  border-bottom: 1px solid #b2b2b2;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 50px;
+}
+
+.txtBoldRasperry {
+  font-weight: bold;
+  color: var(--Dark_Raspberry);
+}
+
+.attribution {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+	
+  body {
+		background-color: var(--Eggshell);
+  }
+
+  .mainContainer {
+		background-color: var(--White);
+		border-radius: 25px;
+		width: 740px;
+		margin: 100px auto;
+  }
+
+	.contendorImage {
+		padding: 40px;
+		border-radius: 55px;
+	}
+}
